@@ -1,0 +1,195 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+html{
+    font-size: 10px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
+}
+
+
+/* góra */
+header{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.384),rgba(0, 0, 0, 0.384)), url('src/car-bg.jpg');
+    background-position: center;
+    background-size: cover;
+}
+nav{
+    display: flex;
+    background-color:rgba(0, 0, 0, 0.397);
+    width: 100%;
+    height: 8vh;
+    align-items: center;
+}
+.nav-link{
+    text-align: right;
+    flex: 1;
+}
+nav ul li{
+    display: inline-block;   
+    padding-right: 60px;
+}
+nav ul li a{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    font-size: 3rem;
+}
+.header-content{
+    width: 100%;
+}
+.header-content h1{
+    line-height: 40vh;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    font-size: 5rem;
+}
+.header-content>p{
+    width: 80%;
+    margin: 0px auto 50px auto;
+    color: #fff;
+    font-size: 3rem;
+}
+.why-me{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+}
+.why-me-box{
+    width: 25vh;
+    display: block;
+    text-align: center;
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0.151);
+    padding: 30px;
+}
+.why-me-box img{
+    width: 50px;
+    height: 50px;
+}
+.why-me-box h2{
+    margin-top: 10px;
+    text-align: left;
+    font-size: 2rem;
+}
+.why-me-box p{
+    margin-top: 10px;
+    text-align: justify;
+    font-size: 1.4rem;
+}
+.why-me-box1{
+    margin-right: 10px;
+}
+.why-me-box3{
+    margin-right: 10px;
+}
+.why-me-box4{
+    margin-right: 10px;
+}
+.why-me-box2{
+    margin-right: 10px;
+}
+
+
+/* śrdoek */
+main{
+    width: 100%;
+}
+main h1{
+    width: 90%;
+    margin: 30px auto;
+    font-size: 5rem;
+    
+}
+.main-menu{
+    scroll-behavior: smooth;
+    width: 30%;
+    height: 30vh;
+    margin: 0 auto;
+}
+.main-menu input{
+    display: block;
+}
+.main-menu>p{
+    font-size: 3rem;
+    margin-bottom: 5%;
+}
+.p-oferta{
+    font-size: 2rem;
+    margin-top: 10px;
+}
+.submit{
+    margin: 10% auto 0 auto;
+    width: 80%;
+    height: 40px;
+    border: none;
+    background-color: rgb(223, 165, 58);
+}
+.submit:hover{
+    border: 3px solid rgba(0, 0, 0, 0.356);
+}
+.php{
+    margin-top: 5%;
+}
+select{
+    width: 100px;
+
+}
+
+
+/* w php */
+
+aside{
+    width: 100%;
+    height: 50vh;
+}
+.aside-car{
+    width: 90%;
+    height: 50vh;
+    display: flex;
+    margin: 0 auto ;
+}
+.car-box{
+    width: 50vh;
+    height: 41vh;
+    margin: 0 auto;
+    font-size: 1.7rem;
+}
+.box-img img{
+    width: 100%;
+    height: 35vh;
+}
+
+/* lokalizacja */
+
+footer{
+    height: 40vh;
+    width: 100%;   
+}
+.footer{
+    display: flex;
+}
+.kontakt{
+    width: 50%;
+    height: 40vh;
+}
+.map{
+    width: 50%;
+    height: 40vh;
+    border: 0;
+}
+.footer-content h1{
+    font-size: 5rem;
+}
+.footer-content p{
+    font-size: 1.6rem;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
